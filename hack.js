@@ -17,6 +17,5 @@ setInterval(function(){
 
 // Easy win, No sweat
 setInterval(function(){
-  forceClick('#attack_fists');
-  forceClick('#attack_bone-spear');
+  forceClick('.weaponButton');
 }, 100);

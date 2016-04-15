@@ -3,11 +3,14 @@ function forceClick(selector) {
     $(selector).click();
 }
 
-// Earn resource every 10 second
 setInterval(function(){
-  forceClick('#trapsButton');
   forceClick('#gatherButton');
 }, 10 * 1000);
+
+setInterval(function(){
+  forceClick('#trapsButton');
+}, 1 * 1000);
+
 
 // Keep the room warn, 
 // I don't know does it help anything
